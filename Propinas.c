@@ -8,9 +8,9 @@ int main() {
     printf("Ingrese el total de la cuenta: ");
     scanf("%lf", &total);
     printf("Ingrese que tan bueno fue servicio: \n");
-    printf("1 - Excelente (20%% de propina)\n");
-    printf("2 - Bueno (15%% de propina)\n");
-    printf("3 - Regular (10%% de propina)\n");
+    printf("1-Excelente (20%% de propina)\n");
+    printf("2-Bueno (15%% de propina)\n");
+    printf("3-Regular (10%% de propina)\n");
     scanf("%d", &nivelServicio);
     // Proceso
     switch (nivelServicio) {
