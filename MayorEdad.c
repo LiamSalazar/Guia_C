@@ -5,7 +5,7 @@ int main(){
     int edad = 0;
     // Entrada de datos
     printf("Ingrese su edad: \n");
-    scanf("%d", edad);
+    scanf("%d", &edad);
     // Procesos
     if (edad >= PARAMETRO){
         printf("MAYOR DE EDAD \n");
