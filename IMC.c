@@ -4,9 +4,9 @@ int main() {
     // Declaración de variablkes
     double peso = 0, altura = 0, imc = 0;
     // Entrada de datos
-    printf("Ingrese su peso: ");
+    printf("Ingrese su peso: \n");
     scanf("%lf", &peso);
-    printf("Ingrese su altura: ");
+    printf("Ingrese su altura: \n");
     scanf("%lf", &altura);
     // Procesos
     imc = peso / (altura * altura);
