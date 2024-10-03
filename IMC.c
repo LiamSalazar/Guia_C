@@ -8,7 +8,7 @@ int main() {
     scanf("%lf", &peso);
     printf("Ingrese su altura: ");
     scanf("%lf", &altura);
-    // Proceso: cálculo del IMC
+    // Procesos
     imc = peso / (altura * altura);
     printf("Su IMC es: %.2lf\n", imc);
     printf("Su tipo de peso es: \n");
