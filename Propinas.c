@@ -2,10 +2,10 @@
 
 int main() {
     // Declaración de variables
-    double total = 0, propina = 0;
+    double total = 0, propina = 0, resultado = 0;
     int nivelServicio = 0;
     // Entrada de datos
-    printf("Ingrese el total de la cuenta: ");
+    printf("Ingrese el total de la cuenta: \n");
     scanf("%lf", &total);
     printf("Ingrese que tan bueno fue servicio: \n");
     printf("1-Excelente (20%% de propina)\n");
@@ -26,9 +26,10 @@ int main() {
         default:
             break;
     }
+    resultado = total + propina;
     // Salida de datos
     printf("La propina es: %lf\n", propina);
-    printf("El total a pagar es: %lf\n", total + propina);
+    printf("El total a pagar es: %lf\n", resultado);
 
     return 0;
 }
