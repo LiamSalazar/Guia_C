@@ -14,7 +14,7 @@ int main(){
     // Proceso
     if (opcion == 2){
         resultado = (temperatura - 32) * 5/9;
-    }else if(opcion == 1){
+    }else {
         resultado = (temperatura * 9/5) + 32;
     }
     // Salida de datos
