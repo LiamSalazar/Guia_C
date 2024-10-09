@@ -27,6 +27,6 @@ int main(){
         break;
     }
     // Salida de datos
-    printf("La conversion es: %lf", resultado);
+    printf("La conversion es: %lf\n", resultado);
     return 0;
 }
