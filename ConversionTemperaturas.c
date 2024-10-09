@@ -18,6 +18,6 @@ int main(){
         resultado = (temperatura * 9/5) + 32;
     }
     // Salida de datos
-    printf("Resultado: %lf", resultado);
+    printf("Resultado: %lf\n", resultado);
     return 0;
 }
