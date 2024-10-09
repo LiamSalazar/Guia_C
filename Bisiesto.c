@@ -8,9 +8,9 @@ int main() {
     scanf("%d", &anio);
     // Proceso
     if ((anio % 4 == 0 && anio % 100 != 0) || (anio % 400 == 0)) {
-        printf("%d Bisiesto\n");
+        printf("Bisiesto\n");
     } else {
-        printf("%d No Bisiesto\n");
+        printf("No Bisiesto\n");
     }
 
     return 0;
